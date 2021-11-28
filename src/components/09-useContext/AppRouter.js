@@ -6,11 +6,13 @@ import HomeScreen from "./HomeScreen";
 
 const AppRouter = () => {
   return (
-    <Routes>
-      <Route path="/" element={<HomeScreen />} />
-      <Route path="/about" element={<AboutScreen />} />
-      <Route path="/login" element={<LoginScreen />} />
-    </Routes>
+    <div className="container my-5">
+      <Routes>
+        <Route path="/" element={<HomeScreen />} />
+        <Route path="/about" element={<AboutScreen />} />
+        <Route path="/login" element={<LoginScreen />} />
+      </Routes>
+    </div>
   );
 };
 

@@ -3,28 +3,26 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-      <a className="navbar-brand" href="#">
-        useContext
-      </a>
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark px-3">
+      <div className="navbar-brand">useContext</div>
       <div className="collapse navbar-collapse" id="navbarNav">
         <div className="navbar-nav">
           <NavLink
-            activeClassName="active"
+            activeclassname="active"
             className="nav-item nav-link"
             to="/"
           >
             Home
           </NavLink>
           <NavLink
-            activeClassName="active"
+            activeclassname="active"
             className="nav-item nav-link"
             to="/about"
           >
             About
           </NavLink>
           <NavLink
-            activeClassName="active"
+            activeclassname="active"
             className="nav-item nav-link"
             to="/login"
           >
